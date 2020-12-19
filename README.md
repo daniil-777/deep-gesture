@@ -1,4 +1,4 @@
-# PerceptaTrons Team
+![teaser](media/methods.png "teaser")
 
 ## Important Links
 
@@ -13,11 +13,11 @@ python training_3DCNN_simpleRNN_cluster.py
 ```
 2. For running the model with transformer run
 ```
-python  alternative_approaches/training_transformer_cluster.py
+python  transformer/training_transformer_cluster.py
 ```
 3. For running the model with attention run
 ```
-python  alternative_approaches/training_attention_han_cluster.py
+python  han/training_attention_han_cluster.py
 ```
 
 ## How to run the first model with 3D-convolutions instead of (2+1)D-convolutions?
