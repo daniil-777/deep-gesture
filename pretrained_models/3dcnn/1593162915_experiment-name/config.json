@@ -1,0 +1,76 @@
+{
+    "2plus1DCNN": {
+        "batch_size": 4,
+        "num_class_labels": 487,
+        "num_filters": [
+            [
+                16,
+                16
+            ],
+            [
+                32,
+                32
+            ],
+            [
+                64,
+                64
+            ]
+        ],
+        "num_hidden_units": 64,
+        "spatial_filter_size": [
+            3,
+            3,
+            3
+        ],
+        "temporal_filter_size": [
+            3,
+            3,
+            3
+        ]
+    },
+    "3DCNN": {
+        "batch_size": 4,
+        "filter_size": [
+            3,
+            3,
+            3
+        ],
+        "num_class_labels": 487,
+        "num_filters": [
+            16,
+            32,
+            64
+        ],
+        "num_hidden_units": 32
+    },
+    "RNNModel_attention": {
+        "KEEP_PROB": 0.8,
+        "attention_size": 50,
+        "dropout_rate": 0.8,
+        "hidden_size": 150,
+        "num_class_labels": 2,
+        "num_hidden_units": 64
+    },
+    "batch_size": 4,
+    "checkpoint_every_step": 500,
+    "clip_size": 16,
+    "data_directory": "/cluster/scratch/beluis/train_data",
+    "dropout_rate": 0.8,
+    "evaluate_every_step": 500,
+    "frame_height": 100,
+    "frame_width": 100,
+    "inputs": {
+        "batch_size": 4,
+        "num_epochs": 1
+    },
+    "json_dir": "sports1m_train.json",
+    "learning_rate": 0.0001,
+    "learning_rate_type": "fixed",
+    "logs_dir": "data/logs",
+    "model_dir": "/cluster/home/beluis/PerceptaTrons/data/logs/1593162915_experiment-name",
+    "model_id": "1593162915",
+    "model_name": "experiment-name",
+    "num_epochs": 1,
+    "num_videos": 8,
+    "print_every_step": 16
+}
